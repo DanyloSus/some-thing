@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 211, 140);
+  color: blue;
+}
+
+.tutorial {
+  border: 10px solid rgb(214, 214, 214);
+  background-color: rgb(241, 241, 241);
+  padding: 30px 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.changers {
+  font-weight: 600;
+  font-size: xx-large;
+  background-color: rgb(214, 214, 214);
+  width: 38px;
+  margin: 30px 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  margin: 5px 10px;
+}
+p {
+  margin: 0 10px;
+}
+
+article {
+  display: block;
+}
