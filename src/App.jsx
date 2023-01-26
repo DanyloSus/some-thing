@@ -51,6 +51,18 @@ export default function App() {
               images={images}
             />
             <hr />
+            <footer>
+              <div id="media" align="center">
+                <video src="./videos/1.mp4" controls height="180px" />
+                <br />
+                <audio src="./videos/1.mp4" controls />
+              </div>
+              <div id="media" align="center">
+                <video src="./videos/2.mp4" controls height="180px" muted loop />
+                <br />
+                <audio src="./videos/2.mp3" controls />
+              </div>
+            </footer>
             <h3 align="center">{page}/3</h3>
           </div>
           :

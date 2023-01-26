@@ -45,3 +45,11 @@ p {
 article {
   display: block;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px 15px
+}
