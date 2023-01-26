@@ -53,12 +53,16 @@ export default function App() {
             <hr />
             <footer>
               <div id="media" align="center">
-                <video src="./videos/1.mp4" controls height="180px" />
+                <video src="./videos/1.mp4" controls height={
+                  Math.floor(Math.random() * 170) + 10 + "px"
+                } />
                 <br />
                 <audio src="./videos/1.mp4" controls />
               </div>
               <div id="media" align="center">
-                <video src="./videos/2.mp4" controls height="180px" muted loop />
+                <video src="./videos/2.mp4" controls height={
+                  Math.floor(Math.random() * 170) + 10 + "px"
+                } muted loop />
                 <br />
                 <audio src="./videos/2.mp3" controls />
               </div>
